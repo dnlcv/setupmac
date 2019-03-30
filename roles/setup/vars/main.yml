@@ -5,23 +5,125 @@ general:
 
 # homebrew applications
 applications:
-  - autojump
-  - git
-  - tree
-  - httpie
-  - curl
-  - wget
-  - kubectl
-  - kubernetes-helm
-  - zsh
-  - go
-  - vim
-  - hugo
-  - saltstack
-  - neovim
-  - ag 
+  - ag
+  - ansible
+  - ansible-lint
+  - ant
+  - asciidoc
+  - autoconf
+  - automake
+  - aws-elasticbeanstalk
+  - awscli
+  - bash
+  - bundletool
+  - c-ares
+  - cairo
+  - chtf
+  - cmake
+  - cocoapods
+  - coreutils
   - ctags
-  - terraform
+  - curl
+  - docbook
+  - docbook-xsl
+  - docker
+  - docker-compose
+  - docker-machine
+  - fdk-aac
+  - ffmpeg
+  - fontconfig
+  - freetype
+  - fribidi
+  - gcc
+  - gdbm
+  - gettext
+  - gflags
+  - git
+  - git-lfs
+  - glib
+  - gmp
+  - gnutls
+  - go
+  - graphite2
+  - harfbuzz
+  - httpie
+  - hugo
+  - icu4c
+  - imagemagick
+  - isl
+  - jfrog-cli-go
+  - jpeg
+  - jq
+  - lame
+  - lastpass-cli
+  - lftp
+  - libass
+  - libassuan
+  - libev
+  - libevent
+  - libffi
+  - libgcrypt
+  - libgpg-error
+  - libidn
+  - libidn2
+  - libksba
+  - libmpc
+  - libogg
+  - libpng
+  - libtasn1
+  - libtiff
+  - libtool
+  - libunistring
+  - libuv
+  - libvorbis
+  - libvpx
+  - libwebsockets
+  - libxmlsec1
+  - libyaml
+  - mas
+  - maven
+  - mpfr
+  - nasm
+  - neovim
+  - nettle
+  - oath-toolkit
+  - oniguruma
+  - openssl
+  - openssl@1.1
+  - opus
+  - p11-kit
+  - packer
+  - pandoc
+  - pcre
+  - pinentry
+  - pixman
+  - pkg-config
+  - pwsafe
+  - python
+  - python3
+  - python@2
+  - readline
+  - redis
+  - s3cmd
+  - sdl2
+  - shtool
+  - speedtest-cli
+  - sqlite
+  - ssllabs-scan
+  - sslscan
+  - testssl
+  - texi2html
+  - tmux
+  - tmux-cssh
+  - tree
+  - unrar
+  - vim
+  - watchman
+  - wget
+  - x264
+  - x265
+  - xvid
+  - xz
 
 # homebrew cask applications
 cask_applications:
@@ -29,24 +131,52 @@ cask_applications:
   - slack
   - iterm2
   - caffeine
-  - docker
-  - minikube
   - vagrant
-  - emacs
-  - garmin-express
-  - 1password
   - alfred
   - virtualbox
   - spotify
-  - steam
+  - adium
+  - android-file-transfer
+  - android-platform-tools
+  - android-studio
+  - apache-directory-studio
+  - boostnote
+  - font-hack-nerd-font
+  - font-inconsolata
+  - font-iosevka-nerd-font
+  - font-meslo-nerd-font
+  - font-monofur-nerd-font
+  - font-ubuntumono-nerd-font
+  - gimp
+  - google-cloud-sdk
+  - java
+  - keka
+  - lastpass
+  - macdown
+  - owncloud
+  - pusher
+  - react-native-debugger
+  - restclient
+  - terraform-0.10.2
+  - terraform-0.10.6
+  - terraform-0.10.8
+  - terraform-0.11.10
+  - terraform-0.7.13
+  - terraform-0.8.8
+  - terraform-0.9.11
+  - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - visual-studio-code
+  - vlc
 
-downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
+#downloads:
+#   zwift:
+#     name: Zwift
+#     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+#     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
+#   suuntolink:
+#     name: Suunto Movescount link
+#     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
+#     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
 
